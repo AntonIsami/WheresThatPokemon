@@ -155,7 +155,7 @@ header {
     box-shadow: 10px 10px 10px black;
 }
 .concept {
-    background-image: url(https://cdn.wallpapersafari.com/37/55/uWko6m.jpeg);
+    background-image: url("assets/welcomeBackground.jpg");
     background-size: cover;
     height: 500px;
     padding-bottom: 100px;
