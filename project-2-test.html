@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where's that pokemon</title>
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header role="banner" id="header">
+            
+            <div class="LogoAndTitle">
+                <img id="pokeball" src="./assets/pokedex.png"> 
+                <p class="headertitle">Where's That Pokémon !?</p>   
+            </div>
+
+            <div class="nav">
+                <nav role="navigation" id="nav-bar">
+                    
+                    <ul class="navigation">
+                        <li><a href="#introduction">Backstory</a></li>
+                        <li><a href="#concept">Concept</a></li>
+                        <li><a href="#locator">Locator</a></li>
+                    </ul>
+                    
+                </nav>
+
+            </div>   
+
+        </header>
+
+        <div class="introduction" id="introduction">
+            
+            <img src="./assets/5-59635_detective-pikachu-detective-pikachu-removebg-preview.png" class="scaredpika">
+            <p class="intro-p"> Where have all the wild pokémon gone!? <br><br>
+                Detective pikachu wants to help you search and complete your pokédex! <br><br> Where to start, with over 800 pokémon over 8 generations, that's a lot of pokemon to catch! 
+            </p>
+            
+        </div>
+        
+        <div class="concept" id="concept">
+            <img class="missing" src="https://www.dexerto.com/wp-content/uploads/2021/11/06/missingno-pokemon-e1636219717153.jpg">
+            <img class="searchingpikachu" src="./assets/pikachusearch.png">
+            <p class="concept-p"> Let's use Detective Pikachu's locator tool to find the stats and locations of the pokemon on your list! <br><br>This tool only works for pokemon naturally found in the wild. <br><br> This locator works for all current pokemon versions!</p>
+            
+        </div>
+        <div class="pagebreak">
+        <!--<img class="pokeball2" src="./assets/pokeball.png">-->
+    </div>
+
+        <div  class="locator" id="locator">
+            
+            <form> 
+                <div class="search">
+                    <p class="search-desc">To search for any pokemon, simply type their name or if you know their number in the pokedex:
+                    <br><br>Rule 1: Only Pokemon found in the wild will have locations available<br><br> If you don't know what Pokemon you can always enter a random number between 1 and 898  </p>
+                    <input type="text" class="search-input" placeholder="Name or No." id="search-input">
+                    <input type="submit" class="submit" value="Find That Pokemon">
+                </div>
+            </form>
+
+            <br>
+
+            <div class="congrats">
+                <img class="pikachuLaugh" src="./assets/PikachuLaugh.png">
+                <p> Congratulations on finding your Pokémon's locations! Now get out there and get hunting!</p>
+            </div>
+
+            <div class="resultsAndLocations">
+                <img src="" class="pokemongroup">
+                <div class="results">
+
+                </div>
+                
+                <br>
+                
+                <div class="locations">
+                    <ul id="locations">
+
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <footer>
+
+            <div class="footer">
+
+                <div class="charmander">
+                    <img src="./assets/pok-mon-x-and-y-pok-mon-go-charmander-bulbasaur-png-favpng-98YaXQZ0nhR5dfexbyMxfgNNB_t-removebg-preview.png" class="footerPokemon">
+                </div>
+
+                <div class="bulbasaur">
+                    <img src="./assets/png-clipart-bulbasaur-pokemon-diamond-and-pearl-pokemon-go-pokedex-ivysaur-bulbasaur-pixel-vertebrate-grass-removebg-preview.png" class="footerPokemon">
+                    
+                    <p class="footerp">
+                        Created at Juno College <br>
+                        Credit to Jackster Productions at www.fontspace.com for use of their pokemon style font
+                    </p>
+
+                </div>
+
+                <div class="squirtle">
+                    <img src="./assets/580b57fcd9996e24bc43c32a-removebg-preview.png" class="footerPokemon">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src='./project2.js'>
+    </script>
+</body>
+</html> 

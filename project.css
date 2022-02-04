@@ -1,0 +1,420 @@
+/* Freeware Font Credits: https://www.fontspace.com/jackster-productions/pokemon-gb */
+@font-face {
+    font-family: "Pokemon GB";
+    src: url("./assets/fonts/Pokemon\ GB.woff") format("woff");
+    src: url("./assets/fonts/Pokemon\ GB.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url(./assets/fonts/Pokemon\ Solid.ttf) format("truetype");
+}
+title {
+    font-family: "Pokemon GB";
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body { 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    
+   
+ }
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+p {
+   
+    
+    text-transform: capitalize;
+}
+li {
+    
+    
+    text-transform: uppercase;
+}
+li a {
+    text-decoration: none;
+    
+    color: white;
+    font-family: "Pokemon GB";
+    margin-right: 30px;
+    
+}
+li a:hover {
+    color: red;
+    
+}
+form {
+    padding-bottom: 10px; 
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    min-width: 900px;
+}
+.search {
+    margin-left: 28%;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+    
+}
+.sprite {
+    height: 200px;
+    width: 200px;
+    border-image: url("./assets/frame-hd.png") 42 round;
+    border-width: 21px;
+    border-style: solid;
+    background-color: white;
+}
+.submit {
+    font-family: "Pokemon GB";
+    font-size: 11px;
+    padding: 10px;
+    
+}
+.search-input {
+    margin-right: 10px;
+    padding-right: 10px;
+    font-family: "Pokemon GB";
+    padding: 25px;
+    max-width: 310px;
+    background-color: silver;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+header {
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    height: 100px;
+    background-color: #003a70;
+    
+    padding-bottom: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav {
+    margin-left: 15%;
+    padding-top: 30px;
+    max-width: 500px;
+}
+.navigation {
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+    
+}
+.LogoAndTitle {
+    display: flex;
+    
+}
+.headertitle {
+    font-family: "Pokemon Solid";
+    max-width: 550px;
+    color: yellow;
+    font-size: 42px;
+    margin-left: 15%;
+    margin-top: 40px;
+    white-space: nowrap;
+}
+.search-desc {
+    font-family: "Pokemon GB";
+    font-size: 14px;
+    max-width: 550px;
+    padding: 10px;
+    margin: 10px;
+    background-color: silver;
+    border-image: url("https://toppng.com/public/uploads/thumbnail/okemon-dialog-box-pokemon-text-box-11563032997s6jul64mec.png") 50 round;
+    border-width: 25px;
+    border-style: solid;
+}
+.poke-box {
+    border-image: url("https://toppng.com/public/uploads/thumbnail/okemon-dialog-box-pokemon-text-box-11563032997s6jul64mec.png") 50 round;
+    background-color: white;
+    border-width: 30px;
+    border-style: solid;
+    font-size: 11px;
+    min-width 70%;
+    font-family: "Pokemon GB";
+    margin-left: 15%;
+    box-shadow: 10px 10px 10px black;
+}
+.concept {
+    background-image: url(https://cdn.wallpapersafari.com/37/55/uWko6m.jpeg);
+    background-size: cover;
+    height: 500px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.missing {
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 150px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+.introduction {
+    width: 100%;
+   
+    background-image: url(https://d.furaffinity.net/art/blazingifrit/1475361156/1475361156.blazingifrit_zoruaeevee_background.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+.intro-p {
+    border-image: url("https://toppng.com/public/uploads/thumbnail/okemon-dialog-box-pokemon-text-box-11563032997s6jul64mec.png") 50 round;
+    font-family: "Pokemon GB";
+    border-style: solid;
+    border-width: 24px;
+    font-size: 16px;
+    background-color: silver;
+    margin-top: 125px;
+    min-height: 225px;
+    margin-left: 100px;
+    max-width: 33%;
+    min-width: 20%;
+    overflow-y: scroll;
+    padding-top: 20px;
+    line-height: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+.concept-p {
+    border-image: url("https://toppng.com/public/uploads/thumbnail/okemon-dialog-box-pokemon-text-box-11563032997s6jul64mec.png") 50 round;
+    font-family: "Pokemon GB";
+    border-style: solid;
+    border-width: 24px;
+    font-size: 12px;
+    background-color: silver;
+    max-width: 275px;
+    margin-top: 150px;
+    max-height: 250px;
+    margin-right: 10px;
+    line-height: 17px;
+    box-shadow: 10px 10px 10px black;
+    overflow-y: scroll;
+}
+.searchingpikachu {
+    margin-top: 100px;
+}
+.locations {
+    border-image: url("https://toppng.com/public/uploads/thumbnail/okemon-dialog-box-pokemon-text-box-11563032997s6jul64mec.png") 50 round;
+    border-width: 21px;
+    border-style: solid;
+    font-size: 11px;
+    list-style-type:decimal;
+    padding-left: 55px;
+    margin-right: 5%;
+    font-family: "Pokemon GB";
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    align-items: center;
+   
+}
+.results {
+    width: 49%;
+}
+.locator {
+    display: inline-block;
+    background-color: #FFDE00;
+    background-image: url("https://www.pngkey.com/png/full/457-4570038_watch-da-birdie-all-pokemon-box-sprites.png");
+    width: 100%;
+    padding-bottom: 250px;
+    padding-top: 30px;
+}
+.resultsAndLocations {
+    display: flex; 
+    
+    justify-content: space-evenly;
+}
+.pokemongroup {
+    
+}
+.scaredpika {
+    padding-bottom: 20px;
+    height: 600px;
+    margin-left: 100px;
+    
+}
+.footer {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.charmander {
+    background-color: #ffad52;
+    width: 33%;
+    height: 170px;
+    border-right: 2px solid black;
+}
+.squirtle {
+    background-color: #8bc5cd;
+    width: 33%;
+    height: 170px;
+}
+.bulbasaur {
+    background-color: #a4d541;
+    width: 34%;
+    height: 170px;
+    border-right: 2px solid black;
+}
+.footerPokemon {
+    height: 80px;
+    margin-left: 40%;
+    padding-top: 30px;
+}
+.footerp {
+    font-family: "Pokemon GB";
+    padding-top: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+#pokeball {
+    height: 125px;
+    padding: 0;
+}
+.congrats {
+    background-color: silver;
+    border-image: url("https://toppng.com/public/uploads/thumbnail/okemon-dialog-box-pokemon-text-box-11563032997s6jul64mec.png") 50 round;
+    border-width: 21px;
+    border-style: solid;
+    max-width: 700px;
+    margin-left: 24%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: "Pokemon GB";
+    font-size: 16px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px black;
+}
+.pikachuLaugh {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.congrats p {
+    text-align: center;
+    margin-top: 10%;
+}
+.pokeball2 {
+    height: 100px;
+    margin-left: 80%;
+    position: absolute;
+    top: 1000px;
+}
+@media only screen and (max-width: 1300px) {
+    .navigation {
+        row-gap: 10px;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-left: 15%;
+        
+    }
+    li a {
+        font-size: 15px;  
+      }
+}
+@media only screen and (max-width: 1000px) {
+    .headertitle {
+      font-size: 25px;
+      margin-top: 50px;
+    }
+    .search-desc {
+        font-size: 12px;
+    }
+    .intro-p {
+        height: 400px;
+        margin-top: 80px;
+        margin-left: 25px;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+   
+    .scaredpika {
+        height: 500px;
+        margin-left: 0;
+    }
+    #pokeball {
+        height: 75px;
+        margin-top: 25px;
+    }
+    .search {
+       margin-left: 20%;
+    }
+    .pikachulaugh {
+        height: 100px;
+    }
+   
+    .congrats {
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    .missing {
+        height: 200px;
+    }
+    .concept-p{
+        font-size: 8px;
+        height: 150px;
+        line-height:12px;
+        
+    }
+  }
+@media only screen and (max-width: 750px) {
+    .footer {
+        flex-direction: column;
+    }
+    .charmander {
+         width: 100%;
+        
+    }
+    .squirtle, .bulbasaur {
+        width: 100%;
+        border-top: 2px solid black;
+    }
+
+    .footerPokemon {
+        margin-left: 46%;
+    }
+    .footerp {
+        max-width: 500px;
+        margin-left: 25%;
+    }
+    .navigation {
+        margin-left: 25px;
+    }
+    .poke-box, 
+    .locations {
+        font-size: 8px;
+    }
+ 
+    .searchingpikachu {
+        height: 350px;
+    }
+    
+}  
